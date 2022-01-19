@@ -19,8 +19,5 @@
     "skipLibCheck": true
   },
   "include": ["src"],
-  "files": [
-    "./hardhat.config.ts",
-    "./node_modules/@mstable/protocol/dist/types/generated/index.ts"
-  ]
+  "files": ["./hardhat.config.ts"]
 }
