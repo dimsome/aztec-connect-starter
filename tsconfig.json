@@ -1,21 +1,26 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "moduleResolution": "node",
+    "target": "ESNext",
+    "moduleResolution": "Node",
     "lib": ["dom", "esnext", "es2017.object"],
     "outDir": "dest",
     "module": "commonjs",
     "strict": true,
-    "noImplicitAny": true,
     "noImplicitThis": false,
-    "esModuleInterop": true,
     "declaration": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "inlineSourceMap": true,
     "declarationMap": true,
-    "resolveJsonModule": true
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "allowJs": false,
+    "resolveJsonModule": true,
+    "skipLibCheck": true
   },
   "include": ["src"],
-  "files": ["./hardhat.config.ts"]
+  "files": [
+    "./hardhat.config.ts",
+    "./node_modules/@mstable/protocol/dist/types/generated/index.ts"
+  ]
 }

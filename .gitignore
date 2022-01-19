@@ -11,3 +11,6 @@ yarn.lock
 *.log
 *.swp
 .next
+cache
+yarn.lock
+cache/solidity-files-cache.json
